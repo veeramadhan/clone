@@ -1,38 +1,261 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main_content{
   text-align: center;
+  margin-top: 12%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text_bold{
+  font-weight:700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text_normal{
+  font-size: 25px;
+}
+.search_body{
+  margin-left: 32%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.search_body_input{
+height: 52px;
+width: 345px;
+}
+
+.btn_body{
+  width: 200px;
+  font-size: large;
+  
+}
+
+.gif{
+  margin-bottom:25%;
+}
+
+
+.TV{
+  margin-top: 12%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+}
+
+.Mobile{
+  margin-top: 12%;
+  justify-content: center;
+  display: flex;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+}
+
+.tab{
+  margin-top: 12%;
+  justify-content: center;
+  display: flex;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+}
+
+.kid{
+  margin-top: 12%;
+  justify-content: center;
+  display: flex;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+}
+
+.footer_top{
+  text-align: center;
+  margin-top: 12%;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+  
+}
+
+
+.bottom_text{
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.foot{
+  margin-left: 15%;
+  margin-top: 10%;
+  height: 15vw;
+}
+
+.full_body{
+  color: white;
+  background-color: black;
+}
+ .search_foot{
+  margin-bottom: 8%;
+  margin-left: 32%;
+ }
+
+.bg_img{
+
+ top: 0;
+ background-repeat: no-repeat , repeat;
+ background-image: url('./Assests/netbg.jpg') , radial-gradient( rgba(3, 3, 3, 0.468), rgba(28, 27, 27, 0.808) );
+  height: 100vh;
+  width: 97vw;
+  background-blend-mode:color-burn;
+  border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+} 
+
+.test{
+  z-index: -1;
+  opacity: .5;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.btn{
+  background-color:#E50914;
+}
+
+/* styles.css */
+
+/* Custom styles for the accordion */
+.accordion-item {
+  background-color: gray;
+  margin-bottom: 10px;
+  font-size: 22px;
+ 
+}
+
+.accordion-button {
+  background-color: rgba(59, 56, 56, 0.797);
+  color: white;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.accordion-button:hover {
+  background-color: lightgray;
+}
+
+.accordion-collapse {
+  background-color: rgba(59, 56, 56, 0.797);
+  border-radius: 0 0 10px 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+@media only screen and (max-width: 767px) {
+  .li_li{
+      position: absolute;
+      margin-left: -80px; 
+  }
+  .search_body {
+    margin-left: 5%;
+} 
+.tv_text{
+  text-align: center;
+}
+  .gif{
+      margin-top: 10%;
+      height: 250px;
+      width: 500px;
+  }
+
+  .mobile_text{
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  .text_kid{
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  .text_tab{
+    margin-bottom: 13px;
+    text-align: center;
+  }
+
+  .search_foot{
+    margin-left: 5%;
+} 
+.search_body{
+  margin-left: 10%;
+} 
+
+.foot {
+  margin-left: 6%;
+  margin-top: 10%;
+  height: 44vw;
+}
+.search_body_input {
+  height: 45px;
+  width: 276px;
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* .accordion-body {
+  padding: 15px;
+} */
+
+/* Styling for the "Get Started" button */
+
+
+
+
+/* 
+.bg_img {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
+
+
+.bg_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./Assests/netbg.jpg");
+  background-size: cover;
+  filter: blur(1px); 
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+ 
+  box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.img_bg {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 35px;
+}
+
+
+.right_nav{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 3%
+} */
