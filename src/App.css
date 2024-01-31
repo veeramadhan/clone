@@ -34,6 +34,7 @@ width: 345px;
 
 .gif{
   margin-bottom:25%;
+ 
 }
 
 
@@ -84,7 +85,7 @@ li{
 }
 
 .foot{
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 10%;
   height: 15vw;
 }
@@ -109,12 +110,12 @@ li{
   border-bottom: 12px solid rgba(46, 40, 40, 0.866);
 } 
 
-.test{
+/* .test{
   z-index: -1;
   opacity: .5;
   overflow: hidden;
   width: 100vw;
-}
+} */
 
 .btn{
   background-color:#E50914;
@@ -148,13 +149,30 @@ li{
 }
 
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 576px) {
+  .bg_img{
+
+    top: 0;
+    background-repeat: no-repeat , repeat;
+    background-image: url('./Assests/netbg.jpg') , radial-gradient( rgba(3, 3, 3, 0.468), rgba(28, 27, 27, 0.808) );
+     height: 150vh;
+     width: 97vw;
+     background-blend-mode:color-burn;
+     border-bottom: 12px solid rgba(46, 40, 40, 0.866);
+   } 
   .li_li{
       position: absolute;
       margin-left: -80px; 
   }
+  .text_bold {
+    font-weight: 700;
+    font-size: 28px;
+}
+.text_normal {
+  font-size: 20px;
+}
   .search_body {
-    margin-left: 5%;
+    margin-left: 7%;
 } 
 .tv_text{
   text-align: center;
@@ -163,7 +181,12 @@ li{
       margin-top: 10%;
       height: 250px;
       width: 500px;
+      margin-left: 5%;
+      margin-bottom:5%;
   }
+  
+
+
 
   .mobile_text{
     margin-bottom: 13px;
@@ -179,20 +202,24 @@ li{
   }
 
   .search_foot{
-    margin-left: 5%;
+    margin-left: 15%;
 } 
 .search_body{
-  margin-left: 10%;
+  margin-left: 15%;
 } 
 
 .foot {
-  margin-left: 6%;
+  margin-left: 0%;
   margin-top: 10%;
   height: 44vw;
 }
 .search_body_input {
-  height: 45px;
-  width: 276px;
+  height: 41px;
+  width: 232px;
+}
+.btn_body {
+  width: 143px;
+  font-size: large;
 }
 }
 

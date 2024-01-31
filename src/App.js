@@ -83,7 +83,7 @@ function App() {
       </div>
 
       <div className="row TV">
-        <div className="col-md-5  col-sm-9 mt-5 tv_text">
+        <div className="col-md-5  col-sm-9 mt-5  tv_text">
           <p className="display-5 text_bold mt-2">Enjoy on your TV</p>
           <p className="text_normal mt-2">
             Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
@@ -94,8 +94,8 @@ function App() {
         <div className="col-md-5 col-sm-10 ">
           <img
             src={gif}
-            height="300px"
-            width="550px"
+            height="280px"
+            width="450px"
             alt="gif"
             className="gif"
           />
@@ -123,7 +123,7 @@ function App() {
       </div>
 
       <div className="row tab">
-        <div className="col-md-5 mt-5 col-sm-9 text_tab">
+        <div className="col-md-5 mt-5 col-sm-9  text_tab">
           <p className="display-5 text_bold mt-2">Watch everywhere</p>
           <p className="text_normal mt-2">
             Stream unlimited movies and TV shows on your phone, tablet, laptop,
@@ -134,8 +134,8 @@ function App() {
         <div className="col-md-5 col-sm-10">
           <img
             src={netttv}
-            height="300px"
-            width="550px"
+            height="280px"
+            width="450px"
             alt="gif"
             className="gif"
           />
@@ -367,7 +367,7 @@ function App() {
               </ul>
             </div>
 
-            <div className="col-2 col-sm-3">
+            <div className="col-xs-3 col-sm-3">
               <ul>
                 <li>Help Center</li>
                 <li>Job</li>
@@ -376,7 +376,7 @@ function App() {
               </ul>
             </div>
 
-            <div className="col-2 col-sm-3">
+            <div className="col-xs-2 col-sm-3">
               <ul>
                 <li>Accounts</li>
                 <li>Way to Watch</li>
@@ -385,7 +385,7 @@ function App() {
               </ul>
             </div>
 
-            <div className="col-2 col-sm-3">
+            <div className="col-x-3 col-sm-3">
               <ul>
                 <li>Media Center</li>
                 <li>Terms of Use</li>
